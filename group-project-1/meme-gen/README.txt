@@ -1,0 +1,2 @@
+The main problem I had with this repo was the asynchronous nature of the reddit API calls.
+I addressed this problem by learning how to use async functions and promises in combination with the Promise.all method in order to ensure all information is properly returned in time for website to generate memes without error.

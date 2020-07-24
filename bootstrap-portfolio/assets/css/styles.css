@@ -1,0 +1,50 @@
+.bg-teal{
+    background-color: #4aaaa5;
+    color: white;
+    padding:5px;
+}
+
+.txt-teal{
+    color: #4aaaa5;
+}
+
+.bg-pattern{
+    background-image: url("../images/triangle-mosaic.png");
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: #666666;
+}
+
+.pic-prof{
+    height: 200px;
+    width: 200px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.pic-port{
+    height: 200px;
+    width: 200px;
+}
+
+.float-bottom{
+    border-top: 8px solid #4aaaa5;
+    position: absolute;
+    width:100%;
+    bottom:10px;
+}
+
+.center-on-page{
+    position: absolute;
+    left:50%;
+    top:30%;
+    transform:translate(-50%,-50%);
+}
+.footer-copyright{
+    color: white;
+}

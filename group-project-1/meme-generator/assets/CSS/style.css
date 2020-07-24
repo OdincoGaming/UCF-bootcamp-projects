@@ -1,0 +1,61 @@
+/* background and body styling */ 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    background-color: grey;
+    background-image: url("../images/1.jpg");
+     background-position: center;
+    background-size: cover;
+   }
+/* centering and styling search bar */
+input{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-style: solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19), 10px 10px 25px 5px rgb(114, 16, 206) inset;
+}
+/*center  and styling meme display */
+#meme-display{
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-style: solid;
+}
+/* style and center generator button */
+#generator-button{
+    background-image: linear-gradient(to right,blue , red);
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 24px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19), 5px 5px 5px 2px rgb(43, 43, 44) inset;
+    border-style: solid;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;      
+}
+/*button click motion */
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+/* button hover */
+  .btn:hover {
+    opacity: 0.5;
+    font-size: smaller;
+ }

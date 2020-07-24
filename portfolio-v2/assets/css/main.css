@@ -1,0 +1,635 @@
+html {
+  background-color: #1c1c1c;
+}
+
+html h1 {
+  font-size: 5rem;
+}
+
+html h2 {
+  font-size: 3rem;
+}
+
+html h3 {
+  font-size: 2rem;
+}
+
+html h4 {
+  font-size: 1.5rem;
+}
+
+html a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #d3dbe9;
+  background-color: #1c1c1c;
+  width: 100%;
+  height: 100%;
+}
+
+body header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 500;
+}
+
+body .is-uppercase {
+  text-transform: uppercase !important;
+}
+
+body .is-spaced {
+  letter-spacing: 4px;
+}
+
+body .is-bold {
+  font-weight: 700 !important;
+}
+
+.btn {
+  padding: .8rem 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn.btn-outline-primary {
+  color: black;
+  border-color: black;
+  border-radius: 1px;
+  border-width: 2px;
+}
+
+.btn.btn-outline-primary:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn.btn-outline-secondary {
+  color: white;
+  border-color: white;
+  border-radius: 1px;
+  border-width: 2px;
+}
+
+.btn.btn-outline-secondary:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn.right {
+  float: right;
+  margin: 0 1rem;
+}
+
+form .form-control {
+  padding: .8rem 2rem;
+  border-radius: 1px;
+  height: auto;
+}
+
+form label.form-info {
+  font-size: 1.2rem;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+  margin: 0 .2rem;
+}
+
+.navbar {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: rgba(28, 28, 28, 0.3) !important;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.navbar.scrolled {
+  background-color: #1c1c1c !important;
+  padding: 0.5rem 1rem;
+}
+
+.navbar.scrolled .container .navbar-brand img {
+  width: 38.5px;
+  height: 35.6px;
+}
+
+.navbar .container .navbar-brand img {
+  width: 50px;
+  height: 46px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.navbar .container .navbar-collapse .navbar-nav .nav-item {
+  padding: .5rem .75rem;
+}
+
+.navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+
+.content .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.content .hero.header .title {
+  color: white;
+  font-size: 9rem;
+  font-weight: 900;
+  line-height: 8.5rem;
+  word-spacing: 100vw;
+  text-shadow: 0 0 2px #000000;
+}
+
+.content .hero.is-light {
+  background-color: white;
+  color: black;
+}
+
+.content .hero.is-light .title {
+  color: black;
+}
+
+.content .hero.is-fullheight {
+  min-height: 100vh;
+}
+
+.content .hero.is-fullheight .hero-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .hero.is-fullheight .hero-body .hero-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .hero.is-fullheight .hero-body .hero-wrapper .row {
+  width: inherit;
+}
+
+.content .hero.is-fullheight .hero-body .hero-wrapper .row .hero-title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .hero.is-fullheight .hero-body .hero-wrapper .row .hero-title .hero-title-col {
+  position: absolute;
+  width: auto;
+}
+
+.content .hero.is-fullheight .hero-body .hero-wrapper .row .hero-newsletter {
+  width: 100%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-box;
+  text-align: center;
+}
+
+.content .hero.is-large {
+  min-height: 70vh;
+}
+
+.content .hero.is-large .hero-body {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
+.content .hero.is-medium {
+  min-height: 50vh;
+}
+
+.content .hero.is-medium .hero-body {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.content .hero .hero-bg {
+  position: absolute;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(assets/img/adam5.png);
+  background-size: 100%;
+  background-position: center center;
+}
+
+.content .hero .hero-bg.bg-fixed {
+  background-attachment: fixed;
+}
+
+.content .hero .hero-bg.bg-blur {
+  -webkit-filter: blur(2px) brightness(100%);
+          filter: blur(2px) brightness(100%);
+}
+
+.content .hero .hero-bg.bg-alpha-fade {
+  -webkit-mask-image: -webkit-linear-gradient(white 20%, transparent 99%);
+          mask-image: -webkit-linear-gradient(white 20%, transparent 99%);
+}
+
+.content .hero .hero-body {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  z-index: 1;
+}
+
+.content .hero .hero-body .section-title {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.content .title {
+  color: white;
+  font-weight: 600;
+}
+
+.content .title .page-title {
+  margin-bottom: 3rem;
+}
+
+.content .subtitle {
+  margin-bottom: 1.5rem;
+  line-height: 1.25;
+}
+
+.content .subtitle.page-title {
+  color: #e52628;
+  font-size: .74rem;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+
+.content .form-newsletter {
+  display: inline-block;
+}
+
+.content .social-badge-list {
+  list-style-type: none;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.content .social-badge-list .social-badge {
+  font-size: 2rem;
+  float: left;
+  margin: 0 2rem 0 2rem;
+}
+
+.content .social-badge-list .social-badge a {
+  color: #d3dbe9;
+}
+
+.content .social-badge-list .social-badge.badge-github a:hover {
+  color: #c9510c;
+}
+
+.content .social-badge-list .social-badge.badge-twitter a:hover {
+  color: #38A1F3;
+}
+
+.content .social-badge-list .social-badge.badge-discord a:hover {
+  color: #7289da;
+}
+
+.content .social-badge-list .social-badge.badge-mail a:hover {
+  color: #57C470;
+}
+
+.project-col {
+  height: 450px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.project-col .project {
+  height: 100%;
+  width: 100%;
+}
+
+.project-col .project a {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  text-decoration: none;
+}
+
+.project-col .project a .project-thumbnail {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.project-col .project a .project-thumbnail .project-overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.project-col .project a .project-thumbnail .project-overlay:hover {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.project-col .project a .project-thumbnail .project-overlay:hover .project-info {
+  color: white;
+}
+
+.project-col .project a .project-thumbnail .project-overlay .project-badge-wrapper {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-filter: drop-shadow(5px 5px 10px black);
+          filter: drop-shadow(5px 5px 10px black);
+}
+
+.project-col .project a .project-thumbnail .project-overlay .project-badge-wrapper .project-badge {
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+  text-shadow: 0 0 2px black;
+  color: white;
+  text-align: left;
+  margin: 0;
+}
+
+.project-col .project a .project-thumbnail .project-overlay .project-badge-wrapper .project-badge.type-game {
+  background-color: #397edd;
+}
+
+.project-col .project a .project-thumbnail .project-overlay .project-badge-wrapper .project-badge.type-software {
+  background-color: #c9510c;
+}
+
+.project-col .project a .project-thumbnail .project-overlay .project-badge-wrapper .project-badge.type-other {
+  background-color: #a153d6;
+}
+
+.project-col .project a .project-thumbnail .project-overlay .project-badge-wrapper .project-badge .project-badge-name {
+  margin: 0 2rem 0 .5rem;
+}
+
+.project-col .project a .project-thumbnail .project-overlay .project-info {
+  position: absolute;
+  bottom: 0;
+  color: rgba(0, 0, 0, 0);
+  margin: 0 1rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.developer-card {
+  height: 400px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  color: black;
+}
+
+.developer-card h4{
+  margin: 10px;
+}
+
+.developer-card a {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  text-decoration: none;
+}
+
+.developer-card .developer-thumbnail {
+  height: 62%;
+  width: 100%;
+  color: white;
+  background: url(../assets/img/avatar-placeholder.png);
+  background-size: cover;
+}
+
+.developer-card .developer-info {
+  text-align: center;
+  background: white;
+}
+
+.developer-card .developer-info .developer-social {
+  list-style: none;
+  padding: 0;
+}
+
+.developer-card .developer-info .developer-social li {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 0 .5rem 0 .5rem;
+}
+
+.developer-card .developer-info .developer-social li a {
+  color: black;
+}
+
+.post {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 1.5rem;
+}
+
+.post.post-latest a .post-thumbnail .post-overlay .post-info-wrapper {
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post.post-latest a .post-thumbnail .post-overlay .post-info-wrapper .post-info {
+  text-align: center;
+}
+
+.post a {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.post a:hover .post-thumbnail .post-overlay {
+  background: rgba(0, 0, 0, 0);
+}
+
+.post a .post-thumbnail {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 20%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.post a .post-thumbnail .post-overlay {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.post a .post-thumbnail .post-overlay .post-info-wrapper {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+}
+
+.post a .post-thumbnail .post-overlay .post-info-wrapper .post-info {
+  width: 100%;
+  text-align: left;
+  text-shadow: 0 0 2px #000000;
+}
+
+.post a .post-thumbnail .post-overlay .post-info-wrapper .post-info .post-details {
+  list-style: none;
+  padding: 0;
+}
+
+.post a .post-thumbnail .post-overlay .post-info-wrapper .post-info .post-details li {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 .5rem 0 .5rem;
+}
+
+.post a .post-thumbnail .post-overlay .post-info-wrapper .post-info .post-details li a {
+  color: black;
+}
+
+.post-entry {
+  margin-bottom: 2rem;
+  border-right: 1px solid #d3dbe9;
+}
+
+.post-entry .post-thumbnail {
+  height: 200px;
+  margin-right: 2rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.post-entry .post-entry-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.post-entry .post-entry-col .post-entry-description {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.post-entry .post-entry-col .post-details span {
+  margin-right: 1rem;
+}
+
+.tag-badge-wrapper {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 1rem;
+  font-weight: 700;
+  text-shadow: 0 0 1px black;
+  color: white;
+  text-align: left;
+  margin-bottom: 2rem;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.tags .tag-badge {
+  margin-right: 2rem;
+}
+
+.tags .tag-badge.type-latest {
+  background-color: #cd412b;
+}
+
+.tags .tag-badge.type-general {
+  background-color: #397edd;
+}
+
+.tags .tag-badge.type-devblog {
+  background-color: #a153d6;
+}
+
+.tags .tag-badge.type-release {
+  background-color: #c9510c;
+}
+
+.tags .tag-badge .tag-badge-name {
+  margin: 0;
+  padding: .25rem .54rem;
+  font-size: .8rem;
+}
+
+.tags .tag-badge .tag-badge-name.is-medium {
+  padding: .5rem 1rem;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=main.css.map */

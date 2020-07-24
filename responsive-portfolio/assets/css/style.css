@@ -1,0 +1,198 @@
+.name {
+    background-color: #4aaaa5;
+    color:white;
+    display:inline-block;
+    position: absolute;
+}
+
+.widget_buttons {
+    text-align: right;
+    display:block;
+    font-size: larger;
+}
+
+.widget_bar{
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+.prof_pic{
+    height:290px;
+    width:240px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.copyright_bar{
+    position: relative;
+    text-align:center;
+    bottom: 30px;
+    font-size: larger;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    color:white;
+}
+
+.copyright_bar_portfolio{
+    position: relative;
+    text-align:center;
+    bottom: 30px;
+    font-size: larger;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    color:white;
+}
+
+.about_me{
+    border-color: #dddddd;
+    background-color: #ffffff;
+    position: relative;
+    font-size: xx-large;
+}
+
+.contact{
+    padding-top: 40px;
+    clear:both;
+    width:100%;
+}
+
+.button{
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.flex-container {
+    display:flex;
+    padding:100px;
+    }
+
+.item{
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;   
+}
+
+
+.item_text {
+    text-align: center;
+    color: #ebebeb;
+    background: #4aaaa5;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 1px;
+    position: relative;
+    z-index: 2;
+    bottom: 70px;
+
+}
+#about_me {
+    color:#4aaaa5;
+}
+
+
+section {
+    background-image: url("http://www.pixeden.com/media/k2/galleries/165/003-subtle-light-pattern-background-texture-vol5.jpg");
+}
+
+.portfolio_body{
+    background-image: url("http://www.pixeden.com/media/k2/galleries/165/003-subtle-light-pattern-background-texture-vol5.jpg");
+}
+
+body {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    width:70%;
+    height:90%;
+}
+
+@media screen and (max-width: 980px){
+
+    .prof_pic{
+        height:190px;
+        width:140px;
+        float: left;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .flex-container {
+        display:flex;
+        padding:50px;
+        flex-direction: column;
+    }
+    
+    .item{
+        height: 100%;
+        width: 100%;
+        margin: 10px;
+        box-sizing: border-box;
+        float: center;
+        flex: 0 1 auto;
+        align-self: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .prof_pic{
+        height:150px;
+        width:100px;
+        float: left;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .flex-container {
+        display:flex;
+        padding:50px;
+        flex-direction: column;
+    }
+    
+    .item{
+        height: 100%;
+        width: 100%;
+        margin: 10px;
+        box-sizing: border-box;
+        float: center;
+        flex: 0 1 auto;
+        align-self: auto;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+
+    .prof_pic{
+        height:150px;
+        width:100px;
+        float: left;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .flex-container {
+        display:flex;
+        padding:50px;
+        flex-direction: column;
+    }
+    
+    .item{
+        height: 100%;
+        width: 100%;
+        margin: 10px;
+        box-sizing: border-box;
+        float: center;
+        flex: 0 1 auto;
+        align-self: auto;
+    }
+}

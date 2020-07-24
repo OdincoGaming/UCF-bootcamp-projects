@@ -1,0 +1,2 @@
+The main problem I had with this assignment was getting the information to store in the database properly.
+I addressed this issue with determination and a trial and error mentality until it was functioning.
